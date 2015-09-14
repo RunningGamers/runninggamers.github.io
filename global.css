@@ -30,6 +30,21 @@ h2
 	background-color: black;
 	color: white;
 	text-align: center;
+	letter-spacing: 3px;
+}
+#menu
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+.menubutton
+{
+	padding: 3%;
+	float: left;
+}
+#content
+{
+	padding: 2%;
 }
 #hello
 {
@@ -39,4 +54,27 @@ h2
 {
 	text-align: center;
 	padding: 1%;
+}
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+}
+a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+}
+a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+}
+a:active
+{
+	color: black;
+	text-decoration: underline;
 }
