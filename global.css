@@ -32,21 +32,40 @@ h2
 	text-align: center;
 	letter-spacing: 3px;
 }
-#menu
-{
-	margin-right: auto;
-	margin-left: auto;
-}
 .menubutton
 {
 	padding: 3%;
 	float: left;
 }
+.menubutton:hover
+{
+	background-color: #303030;
+}
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #e0e0e0;
+}
+a:active
+{
+	text-decoration: underline;
+	color: #e0e0e0;
+}
 #content
 {
 	padding: 2%;
 }
-#hello
+.centered
 {
 	text-align: center;
 }
@@ -54,27 +73,4 @@ h2
 {
 	text-align: center;
 	padding: 1%;
-}
-a:link
-{
-	color: black;
-	text-decoration: none;
-}
-}
-a:hover
-{
-	color: black;
-	text-decoration: underline;
-}
-}
-a:visited
-{
-	color: black;
-	text-decoration: none;
-}
-}
-a:active
-{
-	color: black;
-	text-decoration: underline;
 }
