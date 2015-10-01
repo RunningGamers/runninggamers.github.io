@@ -20,7 +20,7 @@ h2
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 100vh;
-	width: 80%;
+	width: 90%;
 	background-color: white !important;
 	padding: 1%;
 }
@@ -40,6 +40,7 @@ h2
 .menubutton:hover
 {
 	background-color: #303030;
+    color: white;
 }
 a:link
 {
@@ -68,9 +69,26 @@ a:active
 .centered
 {
 	text-align: center;
+    margin-bottom: 10px;
 }
 #footer
 {
 	text-align: center;
 	padding: 1%;
+}
+.projekt
+{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+}
+.projekt:hover
+{
+    background-color: #303030;
+}
+.menu
+{
+    display: table;
+    margin: 0 auto;
 }
