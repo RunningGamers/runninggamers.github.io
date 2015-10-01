@@ -1,0 +1,76 @@
+body
+{
+	background: url("bg/dark_emb.png");
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1
+{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 40pt;
+}
+h2
+{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 20pt;
+}
+#main
+{
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+	width: 80%;
+	background-color: white !important;
+	padding: 1%;
+}
+#header
+{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.menubutton
+{
+	padding: 3%;
+	float: left;
+}
+.menubutton:hover
+{
+	background-color: #303030;
+}
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #e0e0e0;
+}
+a:active
+{
+	text-decoration: underline;
+	color: #e0e0e0;
+}
+#content
+{
+	padding: 2%;
+}
+.centered
+{
+	text-align: center;
+}
+#footer
+{
+	text-align: center;
+	padding: 1%;
+}
