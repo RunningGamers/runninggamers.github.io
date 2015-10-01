@@ -1,18 +1,16 @@
 body
 {
 	background: url("bg/dark_emb.png");
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 h1
 {
 	text-align: center;
-	font-family: 'Poiret One', cursive;
 	font-size: 40pt;
 }
 h2
 {
 	text-align: center;
-	font-family: 'Poiret One', cursive;
 	font-size: 20pt;
 }
 #main
@@ -34,8 +32,8 @@ h2
 }
 .menubutton
 {
-	padding: 3%;
-	float: left;
+	padding: 1%;
+	float: right;
 }
 .menubutton:hover
 {
@@ -91,4 +89,16 @@ a:active
 {
     display: table;
     margin: 0 auto;
+}
+button
+{
+    margin-top: 10px;
+	border: 1px solid;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+button:hover
+{
+    background-color: #303030;
 }
